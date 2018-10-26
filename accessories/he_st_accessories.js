@@ -982,6 +982,7 @@ function convertAlarmState(value, valInt = false) {
         case 'armnight':
         case 'armNight':
         case 'armednight':
+        case 'armedNight':
         case 2:
             return valInt ? Characteristic.SecuritySystemCurrentState.NIGHT_ARM : 'night';
         case 'off':
